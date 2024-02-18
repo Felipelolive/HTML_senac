@@ -4,32 +4,64 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
-       .box_position{
-        background-color: rgb(161, 4, 245);
-        width: 300px;
-        text-align: center;
-        border: solid red;
-     }
-     #relative{
-        background-color: orange;
-        width: 300px;
-        text-align: right;
-        border: solid red;
-     }
+      body{
+         background-color: aquamarine;
+      }
+      .container{
+         background-color: #8a0b9b;
+            width: 300px;
+            text-align: center;
+            color: black;
+            font-family: sans-serif;
+            border: solid red;
+            position: relative;
+            left: 100px;
+            
+           
+       }
+       .relative{
+         background-color: #e66f0d;
+         text-align: center;
+         width: 300px;
+         position: absolute;
+         top: 70%;
+         border: solid red;
+         left: 67%;
+         top: 20px;
+          }
+
+       .absolute{
+         background-color: #0de60d;
+         text-align: center;
+         width: 300px;
+         position: absolute;
+         border: solid red;
+         bottom: 10px;
+         left: 100px;
+       }
     </style>
+
 
 </head>
 <body>
-     <div class="box_position" id="absolute">
+     
+     <div class="container">    
+      
+      <h1>Um</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deserunt a obcaecati hic, impedit commodi ut voluptatem minima magni! Deserunt illo nobis, laboriosam repudiandae aut obcaecati rem accusantium eligendi consequatur.</p>
+     </div>
+   
+    <div class="relative">
+      <h1>Dois</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, saepe sed cupiditate voluptatem nostrum autem dignissimos perspiciatis corrupti. Dolores deleniti alias nesciunt ducimus ut optio? Qui iusto recusandae quasi eum!</p>
+    </div>
+     
+    <div class="absolute">
+      <h1>Três</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, saepe sed cupiditate voluptatem nostrum autem dignissimos perspiciatis corrupti. Dolores deleniti alias nesciunt ducimus ut optio? Qui iusto recusandae quasi eum!</p>
+    </div>
+   
+  
     
-          <h2>UM</h2>
-        <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deserunt a obcaecati hic, impedit commodi ut voluptatem minima magni! Deserunt illo nobis, laboriosam repudiandae aut obcaecati rem accusantium eligendi consequatur.</p>
-     </div>
-    <div class="box_position" id="relative">
-     <h2>Dois</h2>
-     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum dolores distinctio dolore, nisi tenetur deleniti saepe, nemo amet reprehenderit quidem qui quaerat recusandae sapiente expedita adipisci enim optio. Harum?</p>
-     </div>
-     <p>texte</p>
 </body>
 </html>
