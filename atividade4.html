@@ -4,62 +4,45 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
-      body{
-         background-color: aquamarine;
-      }
-      .container{
-         background-color: #8a0b9b;
-            width: 300px;
-            text-align: center;
-            color: black;
-            font-family: sans-serif;
-            border: solid red;
-            position: relative;
-            left: 100px;
-            
-           
-       }
-       .relative{
-         background-color: #e66f0d;
-         text-align: center;
-         width: 300px;
-         position: absolute;
-         top: 70%;
-         border: solid red;
-         left: 67%;
-         top: 20px;
-          }
+      #container{
+         max-width: 1000px;
 
-       .absolute{
-         background-color: #0de60d;
-         text-align: center;
-         width: 300px;
-         position: absolute;
-         border: solid red;
-         bottom: 10px;
-         left: 100px;
-       }
+      }
+      #um{
+         background-color: blueviolet;
+         width: 0px;
+         left: 0px;
+      }
+      #dois{
+         background-color: orange;
+         width: 0px;
+         left: 0px;
+      }
     </style>
 
 
 </head>
 <body>
      
-     <div class="container">    
-      
+     <div id="container">    
+      <div id="um" class="caixas">
       <h1>Um</h1>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deserunt a obcaecati hic, impedit commodi ut voluptatem minima magni! Deserunt illo nobis, laboriosam repudiandae aut obcaecati rem accusantium eligendi consequatur.</p>
      </div>
+     </div>
    
-    <div class="relative">
+    <div id="container">
+      <div id="Dois" class="caixas">
       <h1>Dois</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, saepe sed cupiditate voluptatem nostrum autem dignissimos perspiciatis corrupti. Dolores deleniti alias nesciunt ducimus ut optio? Qui iusto recusandae quasi eum!</p>
     </div>
+    </div>
      
-    <div class="absolute">
+    <div id="Três" class="caixas">
       <h1>Três</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, saepe sed cupiditate voluptatem nostrum autem dignissimos perspiciatis corrupti. Dolores deleniti alias nesciunt ducimus ut optio? Qui iusto recusandae quasi eum!</p>
     </div>
+   </div>
    
   
     

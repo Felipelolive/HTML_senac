@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title> Exercicio posicionamento</title>
+    
+    <style>
+         body {
+            background-color: aquamarine
+        }
+
+
+        #container {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            background-color: white;
+            position: relative;
+            /*Define o contexto para esse elemento*/
+            height: 700px;
+        }
+
+        .caixas {
+            width: 250px;
+            height: 250px;
+            border: solid 2px red;
+            position: absolute;
+        }
+
+        #um {
+            background-color: mediumpurple;
+            top: 0;
+            left: 0;
+        }
+
+        #dois {
+            background-color: orange;
+            right: 0;
+            top: 0;
+        }
+        #tres {
+            background-color: #00ff62;
+            bottom: 0;
+        }
+
+        h1 {
+            background-color: yellow;
+            width: 100%;
+        }
+
+        p {
+            padding: 10px;
+            font-family: sans-serif;
+        }
+
+        h1,p{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="um" class="caixas">
+            <h1>UM</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis excepturi laborum sapiente enim sit
+                tempora pariatur iusto aspernatur perspiciatis, iure reprehenderit repellat veniam ad quas optio quo
+                suscipit rem commodi.</p>
+        </div>
+        <div id="dois" class="caixas">
+            <h1>DOIS</h1>
+            <p>Ab, explicabo tempora! Soluta quis facilis voluptatum nihil laborum, error sit iusto non quia vero veniam
+                aliquam ea animi eum laudantium odio nobis minima, repellat hic voluptates excepturi delectus?
+                Laboriosam.</p>
+        </div>
+        <div id="tres" class="caixas">
+            <h1>TRES</h1>
+            <p>Possimus enim illo blanditiis, voluptas, voluptatem sit quis omnis quae illum id quibusdam. Quae ipsum ut
+                minus vero, debitis dolorum! Dicta expedita culpa molestias facilis perspiciatis, similique officiis,
+                quia veniam?</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
