@@ -3,164 +3,125 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
     <style>
-        body {
-            background-color: rgb(242, 233, 221);
-            font-family: sans-serif;
-        }
-
-        .botão>div {
-            background-color: rgb(123, 116, 116);
+    
+    .botao>div {
+            background-color: #727272;
             width: 100px;
-            height: 40px;
-            margin: 0px;
+            height: 50px;
+            margin: 5px;
             text-align: center;
-            line-height: 40px;
+            line-height: 55px;
             font-size: 20px;
-            border: 30px;
+            border: none;
             border-radius: 5px;
-        }
 
-        #carros {
-            background-color: rgb(67, 64, 64);
         }
 
         .botao {
-            display: flex;
-            /* flex-direction: row; */
             color: white;
-        }
-
-        .caixas {
-            width: 250px;
-            height: 250px;
-            border: solid 2px red;
-            padding: 10px;
-            margin: 10px;
-
-        }
-
-        .justify-content>div {
-
-            width: 400px;
-            margin: 10px;
-            text-align: center;
-            line-height: 35px;
-            font-size: 25px;
-            padding: 15px;
-            background-color: white;
-        }
-
-        .justify-content {
-           
             display: flex;
-            flex-wrap: wrap;
-            /* justify-content: center; */
-           
-            /* align-content: space-around; */
+        }
+
+        body {
+            background-color: lightgray;
+            font-family: sans-serif;
         }
 
         img {
             width: 350px;
             height: 200px;
         }
+
+        .justify-content>div {
+            background-color: white;
+            width: 350px;
+            margin: 10px;
+            text-align: center;
+            line-height: 35px;
+            font-size: 25px;
+            padding: 15px;
+        }
+
+        .justify-content {
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
     </style>
 </head>
 
 <body>
+    <div class="h1">
     <h1>Modelo de página</h1>
+    </div>
     <hr>
+    <div class="h2">
     <h2>Página de teste</h2>
+    </div>
+    <br>
     <ol>
-        <div class=botao>
-            <div class="carros">Carros</div>
-            <div class="Pessoas">Pessoas</div>
-            <div class="Frutas">Frutas</div>
+        <div class="botao">
+            <div>Carros</div>
+            <div>Pessoas</div>
+            <div>Frutas</div>
         </div>
     </ol>
-
+    <br>
     <div class="justify-content">
-        <div>
-            <img src="IMAGENS/carro-antigo.webp">
-            <h2>Carros antigos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur incidunt quae ipsa debitis
-                doloremque, aut in asperiores praesentium dignissimos non facere vitae adipisci tenetur, id delectus
-                autem
-                nostrum natus?</p>
+        <div><img src="Imagens/carro-antigo.webp">
+            <h3>Carros Antigos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rem ipsam iusto consequuntur nisi
+                expedita.</p>
         </div>
-
-        <div>
-            <img src="IMAGENS/carroNovo.jpg">
-            <h2>Carro novo</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum deleniti culpa fugiat doloremque, ut
-                cumque
-                ad nobis sed distinctio voluptatibus, minus possimus magnam laboriosam consectetur ratione consequatur
-                minima soluta esse?</p>
+        <div><img src="Imagens/carroNovo.jpg">
+            <h3>Carro Novos</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rem ipsam iusto consequuntur nisi
+                expedita.</P>
         </div>
-
-        <div>
-            <img src="IMAGENS/populares.jpg">
-            <h2>Carros Populares</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis hic dicta natus ducimus sit, quo ex
-                cumque
-                cum aperiam repellat tempore. Est quod quidem saepe adipisci mollitia explicabo reiciendis at!</p>
+        <div><img src="Imagens/populares.jpg">
+            <h3>Carros Populares</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rem ipsam iusto consequuntur nisi
+                expedita.</P>
         </div>
-
-        <div>
-            <img src="IMAGENS/exercicio/img/citricas.png">
-            <h2>Frutas Citricas</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo debitis reprehenderit incidunt velit
-                doloribus? Optio quam minus saepe! Cumque quisquam illum nihil. Mollitia ipsum voluptas eius corporis
-                quia
-                id ab.</p>
+    </div>
+    <div class="justify-content">
+        <div><img src="Imagens/citricas.png">
+            <h3>Frutas Citricas</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente doloribus provident velit, Temporibus.
+            </p>
         </div>
-
-        <div>
-            <img src="IMAGENS/exercicio/img/frutas-vermelhas.png">
-            <h2>Frutas Vermelhas</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas qui, delectus nam similique officia
-                modi
-                hic, magni odio totam error pariatur laboriosam fugiat sapiente, laborum quaerat placeat impedit
-                assumenda
-                ipsa!</p>
+        <div><img src="Imagens/frutas-vermelhas.png">
+            <h3>Frutas Vermelhas</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente doloribus provident velit, Temporibus.
+            </p>
         </div>
-
-        <div>
-            <img src="IMAGENS/exercicio/img/verdes.jpg">
-            <h2>Frutas Verdes</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque quas laboriosam eius, sed minima
-                nesciunt, deleniti reiciendis distinctio pariatur optio, blanditiis culpa magni reprehenderit et nisi
-                obcaecati accusantium numquam.</p>
+        <div><img src="Imagens/verdes.jpg">
+            <h3>Frutas Verdes</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente doloribus provident velit, Temporibus.
+            </p>
         </div>
-
-        <div>
-            <img src="IMAGENS/exercicio/img/adultos.jpg">
-            <h2>Adultos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam nihil, nesciunt at
-                molestiae
-                magnam molestias odit veniam vitae culpa et labore in, ullam doloribus nemo placeat porro explicabo
-                praesentium?</p>
-
-            <div>
-                <img src="IMAGENS/exercicio/img/crianca.png">
-                <h2>Crianças</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corporis explicabo nulla optio
-                    doloremque
-                    voluptas dignissimos obcaecati sapiente. Totam dignissimos fugit velit voluptatum in voluptates
-                    neque
-                    eos repellat deserunt aliquid!</p>
-            </div>
-
-            <div>
-                <img src="IMAGENS/exercicio/img/idosos.webp">
-                <h2>Idosos</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, molestiae perferendis iusto commodi
-                    adipisci doloremque, deserunt tenetur eligendi temporibus amet deleniti minus sapiente ex officiis
-                    maxime. Dolores ut nostrum magnam!</p>
-
-            </div>
+    </div>
+    <div class="justify-content">
+        <div><img src="Imagens/adultos.jpg">
+            <h3>Adultos</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente doloribus provident velit, Temporibus.
+            </p>
         </div>
+        <div><img src="Imagens/crianca.png">
+            <h3>Crianças</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente doloribus provident velit, Temporibus.
+            </p>
+        </div>
+        <div><img src="Imagens/idosos.webp">
+            <h3>Idosos</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente doloribus provident velit, Temporibus.
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>
