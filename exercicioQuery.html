@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #tamanho {
+      font-size: 60px;
+      font-family: sans-serif;
+    }
+
+    body {
+      background-color: rgb(161, 233, 152);
+      /* se não estiver dentro da regra volta para cá */
+      color: black;
+    }
+    @media screen and (min-width: 320px) {
+      body {
+        background-color: rgb(16, 2, 90);
+        color: white;
+      }
+    }
+  
+    @media screen and (min-width: 720px) {
+      body {
+        background-color: rgb(69, 5, 75);
+
+        color: white;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      body {
+        background-color: rgb(230, 86, 46);
+
+        color: white;
+      }
+    }
+
+
+    /* ------- */
+/* 
+    @media screen and (max-width: 1200px) {
+      body {
+        background-color: rgb(230, 86, 46);
+       
+        color: white;
+      }
+    }
+  
+    @media screen and (max-width: 720px) {
+      body {
+        background-color: rgb(69, 5, 75);
+
+        color: white;
+      }
+    }
+    @media screen and (max-width: 320px) {
+      body {
+        background-color: rgb(16, 2, 90);
+
+        color: white;
+      }
+    } */
+
+
+    
+  </style>
+</head>
+
+<body>
+
+  <h1>Renderizando as página em midia query</h1>
+  <h1 id="tamanho">Os breakpoints serão o seguinte: 320px, 720px, 1400px </h1>
+
+</body>
+
+</html>
