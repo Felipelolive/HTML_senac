@@ -378,19 +378,21 @@ iframe {
     padding: 1px 8px;
     text-decoration: none;
 }
+
 /* Página acessorrios */
-.acessorios{
+.acessorios {
     margin: auto;
     padding: 15px;
 }
-.produtos img{
+
+.produtos img {
     max-width: 100px;
     border: solid #7f7f80 3px;
     border-radius: 100%;
     box-shadow: grey 1px 1px 5px;
 }
 
-.produtos{
+.produtos {
     box-shadow: grey 1px 1px 5px;
     text-align: center;
     padding: 20px;
@@ -400,15 +402,17 @@ iframe {
     border-radius: 5px;
 }
 
-.produtos h4{
+.produtos h4 {
     color: #ED6D19;
     text-transform: uppercase;
 }
-.img-produto img{
+
+.img-produto img {
     width: 100px;
     height: 100px;
 }
-.acesse{
+
+.acesse {
     text-transform: uppercase;
     background-color: #ED6D19;
     width: 100px;
@@ -418,4 +422,179 @@ iframe {
     color: #fff;
     margin: 0 auto;
     cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+    #topo {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        /* z-index passa todo conteudo para atras do topo */
+        height: 80px;
+    }
+
+    #topo div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        margin-left: 3%;
+        margin-top: 5px;
+        width: 150px;
+    }
+
+    h1 img {
+        margin-top: 18px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #iconMenu {
+        display: none;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    .conteudo {
+        margin-top: 85px;
+    }
+
+    .rodape-conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo-rodape,
+    .menu-rodape,
+    .redes {
+        margin: 0 auto;
+    }
+
+    .assinatura P {
+        padding-top: 1%;
+    }
+
+    .card-conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .acessorios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .produtos {
+        margin: 10px 1%;
+        height: auto;
+    }
+
+    .acesse {
+        margin: 0 auto;
+    }
+
+    #card-pacote {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-pacote-info {
+        margin: 0.4%;
+        overflow: hidden;
+    }
+
+    .card-pacote-info img {
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .acessorios {
+        margin: 0 15%;
+    }
+}
+
+
+@media screen and (min-width:930px){
+    .card-conteudo figure img{
+        height: 150px;
+        width: 210px;
+    }
+
+    .text-destaque h2{
+        margin-top: -4px;
+    }
+
+    .text-destaque p{
+        margin-top: 0;
+    }
+
+    #frase p{
+        padding-top: 24px;
+        font-size: 1.1em;
+    }
+
+    .produtos{
+        height: ;
+    }
+
+    .acesse{
+        margin: 20px auto;
+    }
+
+    #conteudo-contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .conteudo-info article{
+    margin: 15px 5px;
+    padding: 2%;
+   }
+
+   .localizacao iframe{
+    height: 500px;
+   }
+
+   #localizacao-end{
+    height: 745px;
+   }
+}
+
+@media  screen and (min-width: 1200px) {
+    nav{
+      width: 980px;
+    }
+    .conteudo{
+        width: 980px;
+    }
+    #localizacao-end{
+        height: 745px;
+    }
+
+    #itens{
+        display: flex;
+        justify-content: flex-end;
+        ma
+    }
+
+    
+    
 }
