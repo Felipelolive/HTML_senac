@@ -592,13 +592,12 @@ iframe {
     #itens{
         display: flex;
         justify-content:end;
-        margin-left: 390px;
+        width:  calc(75%);
     }
 
     #topo div{
         display: flex;
-        justify-content: left;
-        margin-left: 145px;
+        justify-content: center;    
     }
     
 }
