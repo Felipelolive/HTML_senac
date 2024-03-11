@@ -551,7 +551,7 @@ iframe {
     }
 
     .produtos{
-        height: ;
+        height: 10px;
     }
 
     .acesse{
@@ -591,10 +591,16 @@ iframe {
 
     #itens{
         display: flex;
-        justify-content: flex-end;
-        ma
+        justify-content:end;
+        margin-left: 390px;
     }
 
-    
+    #topo div{
+        display: flex;
+        justify-content: left;
+        margin-left: 145px;
+    }
     
 }
+
+
