@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio JS</title>
+</head>
+<body>
+    <h1>Alerta</h1>
+    <script>
+        var nome = window.prompt('Qual é o seu nome ?');
+        var idade = window.prompt('Minha idade é:');
+        var nomefamiliar = window.prompt('O nome do meu familiar mais próximo:');
+        var idadefamiliar = window.prompt('Sua idade é:');
+        var data = new Date();
+        var dataCompletaimplicada = data.toDateString();
+
+        Document.write("<p>Meu nome é:"+nome+" <br> Minha idade é: "+idade+" <br> O nome do meu familiar mais próximo: "+nomefamiliar+" <br>Sua idade é: "+idadefamiliar+" <br> Data de inscrição: "+dataCompletaimplicada+".</p>");
+    
+        var data = new Date();
+        var dia = data.getDate();
+        var mes = String(data.getMonth() +1);
+        var ano = data.getFullYear();
+        var datacompleta = dia + '/' + mes + '/' + ano;
+        document.write("Data de inscrição:" + dataCompleta);
+        var idadeSomada = idade + idadefamiliar;
+        var idadeSomada = Number(idade + idadefamiliar);
+        document.write("<p>" +idadeSomada+ "</p>")
+
+
+    </script>
+</body>
+</html>

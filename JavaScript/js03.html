@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando variáveis</title>
+</head>
+<body>
+    <h1>Documento JavaScript</h1>
+    <script>
+        //alert('funcionou!')
+        let curso = "Desenvolvendor Front-end";
+        var nome = "Felipe"
+        var data = new Date();
+        var dia = data.getDate();
+        var mes = data.getMonth() +1; //É preciso incrementar uma posição para dar um get na lista correta.
+        var ano = data.getFullYear();
+        var dataCompletaimplicada = data.toLocaleDateString();
+
+        //document.write(ano);
+        document.write("<p>Olá me chamo <b>"+nome+"</b>, estudo "+curso+", no SENAC. Hoje é: "+dataCompletaimplificada+".</p>")
+        console.log("Olá me chamo "+nome+", estudo "+curso+", no SENAC. Hoje é: "+dataComoletaimolificada);
+    </script>
+</body>
+</html>

@@ -589,16 +589,7 @@ iframe {
         height: 745px;
     }
 
-    #itens{
-        display: flex;
-        justify-content:end;
-        width:  calc(75%);
-    }
-
-    #topo div{
-        display: flex;
-        justify-content: center;    
-    }
+  
     
 }
 
