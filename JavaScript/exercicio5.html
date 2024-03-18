@@ -14,6 +14,15 @@
         let posterior = numero + 1;
         alert("numero: "+numero+" vizinho: "+anterior+" e "+posterior);
 
+        let valorTotal = parseFloat(prompt("Digite o valor da conta:"))
+        let numeroCLientes = parseFloat(prompt("Digite o numero de clientes:"))
+        let valorporCLiente = valorTotal / numeroClientes;
+        alert("Cada cliente deve pagar R$" +valorporCliente.tofixed(2));
+
+        let precoproduto = parseFloat(prompt("Digite o preço do produto:"))
+        let precoaVista = precoProduto * 0.9;
+        let precoParcelado = precoProduto / 3;
+        alert("Opções de pagamento:\n"+ "Á vista com 10% de desconto: R$" +valorAVista.toFixed(2) + "\n" + "Ou 3x de R$" + valorParcela.toFixed(2));
 
 
     </script>
