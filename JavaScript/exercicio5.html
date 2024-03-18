@@ -17,7 +17,7 @@
         let valorTotal = parseFloat(prompt("Digite o valor da conta:"))
         let numeroCLientes = parseFloat(prompt("Digite o numero de clientes:"))
         let valorporCLiente = valorTotal / numeroClientes;
-        alert("Cada cliente deve pagar R$" +valorporCliente.tofixed(2));
+        alert("Valor da conta R$:" +valorTotal.tofixed(2) + "\nNumero de clientes" +numeroCliente+ "\nValor por cliente R$:" +valorporcliente.tofixed(2))
 
         let precoproduto = parseFloat(prompt("Digite o preço do produto:"))
         let precoaVista = precoProduto * 0.9;
@@ -27,7 +27,7 @@
         let nota1 = parseFloat(prompt("Digite a 1 nota:"))
         let nota2 = parseFloat(prompt("Digite a 2 nota:"))
         let media = (nota1 + nota2) /2
-        alert("A media da notas" +media.tofixed(2))
+        alert("A media da notas" +media.tofixed(1))
     </script>
 
 </body>
