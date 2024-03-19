@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    
+
+
+</head>
+<body>
+    <div class="container">
+      <div class="Titulo"> 
+        <h1>Cadastrar Colaborador</h1>
+    </div> 
+      <div class="input-box">
+        <label form="nome">Nome:</label>
+        <input id="nome"  type="text" name="Nome" placeholder="">
+      </div>
+     
+      <div class="input-box">
+        <label form="cargo">Cargo:</label>
+        <input id="cargo" type="text" name="Cargo" placeholder="">
+      </div>
+      
+      <div class="input-box">
+        <label form="idade">Idade:</label>
+        <input id="idade"  type="text" name="Idade" placeholder="">
+      </div>
+     
+      <div class="input-box">
+        <label form="salário">Salário:</label>
+        <input id="salário" type="text" name="Salário" placeholder="">
+      </div>
+
+    </div>
+
+    
+        <button>
+
+        <input id="butSal" type="button" value="Salvar"> </button>
+    
+
+    <div class="Titulo">
+        <h1>Ficha do Colaborador</h1>
+    </div>
+    <div class="box">
+        <label>Nome:</label>
+        <input type="text" name="Nome" id="Nome">
+      </div>
+     
+      <div class="box">
+        <label>Idade:</label>
+        <input type="text" name="Cargo" id="Cargo">
+      </div>
+      
+      <div class="box">
+        <label>Salário:</label>
+        <input type="text" name="Idade" id="Idade">
+      </div>
+     
+      <div class="box">
+        <label>Cargo:</label>
+        <input type="text" name="Salário" id="Salário">
+      </div>
+
+    </div>
+
+   <script>
+       let nome = document.getElementsByClassName('nome')
+       let cargo = document.getElementById('cargo')
+       let idade = document.getElementById('idade')
+       let salario = document.getElementById('salario')
+       let btnSalvar = document.getElementById('btmsalvar')
+       
+     btn.addEventListener("click", function(){
+        document.getElementById('fnome').innerHTML = nome.value
+        document.getElementById('fcargo').innerHTML = cargo.value
+        document.getElementById('fidade').innerHTML = idade.value
+        document.getElementById('fsalário').innerHTML = salario.value
+        document.getElementById('fbtnSalvar').innerHTML = btnSalvar.value
+     })
+               
+            
+   </script>
+
+</body>
+</html>
