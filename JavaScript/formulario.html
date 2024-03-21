@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+
+    <link rel="stylesheet" href="css/estilo01.css">
+</head>
+<body>
+
+    <h1>Formulário de contato</h1>
+
+    <form autocomplete="on">
+        <div>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome">
+        </div>
+        <div>
+            <label for="E-mail">E-mail:</label>
+            <input type="text" id="e-mail">
+        </div>
+        <div>
+            <label for="Telefone">Telefone:</label>
+            <input type="number" id="telefone">
+        </div>
+        <div>
+            <label for="Assunto">Assunto:</label>
+            <input type="text" id="assunto">
+        </div>
+        <div>
+            <label for="Mensagem">Mensagem</label>
+            <input type="text" id="mensagem">
+        </div>
+        <div>
+            <button id="btnenviar" type="button" value="Enviar">Enviar</button>
+        </div>
+    </form>
+
+    <h1>Lista de contatos (recebidos)</h1>
+    
+    <div class="lista">
+        <div class="lista-dados">
+            <label class="label-nome">Nome Completo: </label>
+            <p id="fnome"></p>
+        </div>
+
+        <div class="lista-dados">
+            <label class="label-data">E-mail: </label>  
+            <p id="fE-mail"></p>
+        </div>
+
+        <div class="lista-dados">
+            <label class="label-Telefone">Telefone: </label>
+            <p id="fTelefone"></p>
+        </div>
+
+        <div class="lista-dados">
+            <label class="label-cargo">Assunto: </label>
+            <p id="fassunto"></p>
+        </div>
+        <div class="lista-dados">
+            <label class="label-cargo">Menssagem: </label>
+            <p id="fmenssagem"></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/form.js"></script>
+   
+</body>
+</html>
