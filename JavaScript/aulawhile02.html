@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //while ele verifica a expressao primeiro e depois a instrucao
+       // while (expressao)
+       // instrucao
+
+        //ou
+
+        //Do ele verifica a instrucao primeiro e depois a expressao
+       // do 
+       // instrucao 
+       // while(expressao)
+
+
+
+       let aumento = 500 
+       do{
+        console.log("O salário é de: R$" +aumento)
+        aumento +=50
+
+       }while (aumento < 500)
+
+       const linguagem = ['javascript', 'Python', 'C#', 'PHP'];
+       let index = 0 
+
+       do{
+        console.log(linguagem[index]);
+
+        index++
+       }while(index < linguagem.length);
+         
+       console.log('\n');// pular linha no console
+       console.log('\n');
+
+
+       const quantidadeDeVoltas = 15
+       let voltaAtual = 6
+
+       do{
+        console.log(voltaAtual);
+        voltaAtual++;
+       }while (voltaAtual <= quantidadeDeVoltas)
+
+    </script>
+    
+</body>
+</html>
