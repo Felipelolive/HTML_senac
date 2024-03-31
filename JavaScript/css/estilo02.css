@@ -12,12 +12,3 @@ body{
     margin: 0 ;
 }
 
-.seletion{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.seletion div{
-     margin: 5px;
-}

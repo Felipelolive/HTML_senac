@@ -1,14 +1,15 @@
-salvo.addEventListener('click', function () {
-let enviar = window.document.getElementById('enviar');
-let nome = document.getElementById('nome')
-let email = document.getElementById('e-mail')
-let telefone = document.getElementById('telefone')
-let assunto = document.getElementById('assunto')
-let mensagem = document.getElementById('mensagem')
-let btnenviar = document.getElementById("btnenviar")
-});
 
-if (nomeValue) {
-    document.getElementById('nome2').value = nome;
-}
- 
+let nome = document.getElementById('nome');
+let email = document.getElementById('email');
+let telefone = document.getElementById('telefone');
+let assunto = document.getElementById('assunto');
+let mensagem = document.getElementById('mensangem');
+let btnenviar = document.getElementById("btnenviar");
+
+btnenviar.addEventListener("click" , function (){
+    document.getElementById('fnome').innerHTML= nome.value;
+    document.getElementById('femail').innerHTML= email.value;
+    document.getElementById('ftelefone').innerHTML = telefone.value;
+    document.getElementById('fassunto').innerHTML = assunto.value;
+    document.getElementById('fmensagem').innerHTML = mensagem.value;
+});
