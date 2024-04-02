@@ -20,3 +20,7 @@ formcontato.addEventListener("submit", (event) =>{
     msg.push(formContato.msg.value);
     gerarLista()
 })
+
+function gerarLista(){
+    
+}
